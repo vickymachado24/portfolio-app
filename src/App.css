@@ -72,6 +72,7 @@ input:focus, textarea:focus, select:focus {
 		max-width: 100%;
 		padding: 0 150px;
 	}
+  
 }
 
 p.success {
@@ -322,19 +323,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 22px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+}
+.skill-sec{
+  background: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 6px 8px;
+  display: inline;
+  padding: 6px;
+}
+.skill-sec:hover{
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  transition: 0.4s ease-in;
 }
 .skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
+.skill-descriptive{
+  margin: 9px;
+  background: transparent;
+  color: #fdf2f2;
+  font-size: 17px;
+  letter-spacing: 2px;
+  align-items: center;
+}
 .skill-slider .item img {
-  width: 50%;
+  width: 40%;
   margin: 0 auto 15px auto;
 }
 .background-image-left {
@@ -349,12 +370,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #151515;
+  border-radius: 64px;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  align-content: center;
 }
 .project p {
   color: #B8B8B8;
@@ -364,6 +387,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  align-content: center;
 }
 .project .nav.nav-pills {
   width: 72%;
