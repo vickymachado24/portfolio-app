@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/face-recognition.png";
+import projImg2 from "../assets/img/intelligent-farming.png";
+import projImg3 from "../assets/img/lifi-communication.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import React from 'react'
@@ -29,13 +29,6 @@ function Projects() {
       keywords: ["LI-FI", "vehicular communication", "Java", "Arduino Uno","Backend"],
       imgUrl: projImg3,
       gitUrl:""
-    },
-    {
-      title: "Protfolio Project",
-      description: "Developed a collision avoidance system using LI-FI technology for vehicular communication, enabling data exchange to prevent accidents. Implemented speed monitoring to ensure the hind vehicle does not surpass the fore vehicle's speed.",
-      keywords: ["LI-FI", "vehicular communication", "Java", "Arduino Uno","Frontend"],
-      imgUrl: projImg3,
-      gitUrl:""
     }
   ];
   const filterProjects = (keyword) => {
@@ -49,7 +42,7 @@ function Projects() {
   return (
     <section className="project"  id="projects">
       <Container>
-        <Row>
+        <Row className='align-items-center'>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>

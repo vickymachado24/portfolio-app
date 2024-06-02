@@ -4,15 +4,16 @@ import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
+import { Row, Col, Container } from "react-bootstrap";
 
 
 function Skills() {
   const pLanguagesKnown = ["Java", "Python", "C++", "C", "Javascript"];
-  const formattedLang = pLanguagesKnown.map( lang => <span className="skill-sec">{lang}</span>)
+  const formattedLang = pLanguagesKnown.map( (lang,index) => <Col className="skill-sec" key={index}>{lang}</Col>)
   const technology = ["Spring-Boot" ,"ReactJS", "Ruby On Rails", "AWS", "Express", "Node", "Docker", "S3", "Hadoop", "Kubernetes", ];
-  const formattedTech = technology.map(tech => <span className="skill-sec">{tech}</span>)
+  const formattedTech = technology.map((tech,index) => <Col className="skill-sec" key={index}>{tech}</Col>)
   const dbs = ["Java", "Angular", "Django", "HTML", "Bootstrap","Tailwind", "CSS", "MySQL", "MongoDB"];
-  const formatteddbs = dbs.map(dbs => <span className="skill-sec">{dbs}</span>)
+  const formatteddbs = dbs.map((dbs,index) => <Col className="skill-sec" key={index}>{dbs}</Col>)
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -38,16 +39,23 @@ function Skills() {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx">
                         <h2>Skills</h2>
-                        <p>
-                            Programming Languages:<br></br> 
-                            <div className='skill-descriptive'>{formattedLang}</div>
-                          Frameworks & Libs:<br></br> 
-                          <div className='skill-descriptive'>{formattedTech} </div>
-                          Web Technology and Database: <br></br> 
-                          <div className='skill-descriptive'>{formatteddbs}</div>
-                        </p>
+                        <Container>
+                          <p>Programming Languages:</p>
+                          <Row xs="auto" md="auto" l="auto" xl="auto" className="justify-content-center skill-row">
+                            {formattedLang}
+                          </Row>
+                          <p>Frameworks & Libs:</p>
+                          <Row xs="auto" md="auto" l="auto" xl="auto" className="justify-content-center skill-row">
+                            {formattedTech}
+                          </Row>
+                          <p>Web Technology and Database:</p>
+                          <Row xs="auto" md="auto" l="auto" xl="auto" className="justify-content-center skill-row">
+                            {formatteddbs}
+                          </Row>
+                        </Container>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Backend" />

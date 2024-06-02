@@ -2,6 +2,7 @@ import React,{useState, useEffect} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImage from "../assets/img/header-img.svg";
+import { HashLink } from 'react-router-hash-link';
 
 function Banner() {
     const [loopNum, setLoopNum] = useState(0);
@@ -45,7 +46,9 @@ function Banner() {
                 <span className='tagline'> Hey! Vicky Machado here. </span>
                 <h1> {`I'm a`}<span className='wrap'> {text}</span></h1>
                 <p>I'm a passionate Software Developer with 4 years of experience and an enthusiastic learner always on the lookout for new challenges. Currently a student, I'm eager to deepen my skills, innovate, and push my limits. When I'm not coding, you'll find me immersed in anime, battling it out in COD, or shooting hoops on the basketball court. Let's create something amazing together!</p>
-                <button onClick={()=>{console.log('connect')}}> Let's Connect <ArrowRightCircle size={25}/></button>
+                <HashLink smooth to="#footer">
+                    <button > Let's Connect <ArrowRightCircle size={25}/></button>
+                </HashLink>
                 </Col>
                 <Col  xs={12} md={6} xl={5}>
                     <img src={headerImage} alt='Header Img'></img>
