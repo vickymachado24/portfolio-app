@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio-app/static/css/main.fc9a2bdc.css",
+    "main.js": "/portfolio-app/static/js/main.6ed1bf15.js",
+    "static/js/453.4a91d8c7.chunk.js": "/portfolio-app/static/js/453.4a91d8c7.chunk.js",
+    "static/media/color-sharp.png": "/portfolio-app/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/portfolio-app/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/face-recognition.png": "/portfolio-app/static/media/face-recognition.bd8c5c0b04ee7b2b2954.png",
+    "static/media/lifi-communication.png": "/portfolio-app/static/media/lifi-communication.575ba7e332afb2b0ff63.png",
+    "static/media/intelligent-farming.png": "/portfolio-app/static/media/intelligent-farming.a3bd61c09ceb9d253628.png",
+    "static/media/banner-bg.png": "/portfolio-app/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/education.png": "/portfolio-app/static/media/education.64828649b63c19103527.png",
+    "static/media/experience.png": "/portfolio-app/static/media/experience.b5fbe1f482e7bc9e79a9.png",
+    "static/media/header-img.svg": "/portfolio-app/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/Vicky Machado Resume.pdf": "/portfolio-app/static/media/Vicky Machado Resume.bff98ca923825b5b5c81.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio-app/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio-app/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio-app/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/portfolio-app/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/revicons.eot": "/portfolio-app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio-app/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/portfolio-app/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/github-img.svg": "/portfolio-app/static/media/github-img.93d62687f9f86d0d7453023f0580d3de.svg",
+    "static/media/meter1.svg": "/portfolio-app/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/portfolio-app/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/linkedin.svg": "/portfolio-app/static/media/linkedin.fad6cb3b7ce0a6b6474fa2bc8ce52bc7.svg",
+    "static/media/leetcode-img.svg": "/portfolio-app/static/media/leetcode-img.fad442f0900acda850038eab143381ef.svg",
+    "index.html": "/portfolio-app/index.html",
+    "main.fc9a2bdc.css.map": "/portfolio-app/static/css/main.fc9a2bdc.css.map",
+    "main.6ed1bf15.js.map": "/portfolio-app/static/js/main.6ed1bf15.js.map",
+    "453.4a91d8c7.chunk.js.map": "/portfolio-app/static/js/453.4a91d8c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc9a2bdc.css",
+    "static/js/main.6ed1bf15.js"
+  ]
+}
