@@ -11,6 +11,7 @@ import { HashLink } from 'react-router-hash-link';
 function NavigationBar() {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -21,17 +22,22 @@ function NavigationBar() {
 
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+  
   const onClickUpdateActiveLink = (linkName) => {
     setActiveLink(linkName);
   };
 
+  const handleToggle = () => {
+    setIsNavExpanded(!isNavExpanded);
+  };
+
   return (
-    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
+    <Navbar expand="lg" className={`${scrolled ? 'scrolled' : ''} ${isNavExpanded ? 'expanded' : ''}`}>
       <Container>
         <Navbar.Brand href="#home">
           <Logo />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}>
           <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
