@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.5ca70935.css",
-    "main.js": "/portfolio-app/static/js/main.b2a3a8f9.js",
+    "main.js": "/portfolio-app/static/js/main.aa34c7d3.js",
     "static/js/453.4a91d8c7.chunk.js": "/portfolio-app/static/js/453.4a91d8c7.chunk.js",
     "static/media/color-sharp.png": "/portfolio-app/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolio-app/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -12,7 +12,7 @@
     "static/media/education.png": "/portfolio-app/static/media/education.64828649b63c19103527.png",
     "static/media/experience.png": "/portfolio-app/static/media/experience.b5fbe1f482e7bc9e79a9.png",
     "static/media/header-img.svg": "/portfolio-app/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/Vicky Machado Resume.pdf": "/portfolio-app/static/media/Vicky Machado Resume.f256f1e274757556cc1e.pdf",
+    "static/media/Vicky Machado Resume.pdf": "/portfolio-app/static/media/Vicky Machado Resume.b728edcddf88f8892249.pdf",
     "static/media/CentraNo2-Bold.ttf": "/portfolio-app/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio-app/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio-app/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -28,11 +28,11 @@
     "static/media/leetcode-img.svg": "/portfolio-app/static/media/leetcode-img.fad442f0900acda850038eab143381ef.svg",
     "index.html": "/portfolio-app/index.html",
     "main.5ca70935.css.map": "/portfolio-app/static/css/main.5ca70935.css.map",
-    "main.b2a3a8f9.js.map": "/portfolio-app/static/js/main.b2a3a8f9.js.map",
+    "main.aa34c7d3.js.map": "/portfolio-app/static/js/main.aa34c7d3.js.map",
     "453.4a91d8c7.chunk.js.map": "/portfolio-app/static/js/453.4a91d8c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ca70935.css",
-    "static/js/main.b2a3a8f9.js"
+    "static/js/main.aa34c7d3.js"
   ]
 }
