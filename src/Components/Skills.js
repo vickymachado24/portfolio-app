@@ -8,11 +8,11 @@ import { Row, Col, Container } from "react-bootstrap";
 
 
 function Skills() {
-  const pLanguagesKnown = ["Java", "Python", "C++", "C", "Javascript"];
+  const pLanguagesKnown = ["Java",, "Kotlin", "Python", "C++", "C", "Javascript"];
   const formattedLang = pLanguagesKnown.map( (lang,index) => <Col className="skill-sec" key={index}>{lang}</Col>)
   const technology = ["Spring-Boot" ,"ReactJS", "Ruby On Rails", "AWS", "Express", "Node", "Docker", "S3", "Hadoop", "Kubernetes", ];
   const formattedTech = technology.map((tech,index) => <Col className="skill-sec" key={index}>{tech}</Col>)
-  const dbs = ["Java", "Angular", "Django", "HTML", "Bootstrap","Tailwind", "CSS", "MySQL", "MongoDB"];
+  const dbs = ["PostgreSQL", "Angular", "Django", "HTML", "Bootstrap","Tailwind", "CSS", "MySQL", "MongoDB"];
   const formatteddbs = dbs.map((dbs,index) => <Col className="skill-sec" key={index}>{dbs}</Col>)
   const responsive = {
     superLargeDesktop: {
