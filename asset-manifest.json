@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.5ca70935.css",
-    "main.js": "/portfolio-app/static/js/main.7a36112b.js",
+    "main.js": "/portfolio-app/static/js/main.cd556ec8.js",
     "static/js/453.4a91d8c7.chunk.js": "/portfolio-app/static/js/453.4a91d8c7.chunk.js",
     "static/media/color-sharp.png": "/portfolio-app/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolio-app/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/face-recognition.png": "/portfolio-app/static/media/face-recognition.bd8c5c0b04ee7b2b2954.png",
     "static/media/lifi-communication.png": "/portfolio-app/static/media/lifi-communication.575ba7e332afb2b0ff63.png",
     "static/media/intelligent-farming.png": "/portfolio-app/static/media/intelligent-farming.a3bd61c09ceb9d253628.png",
-    "static/media/Vicky Machado Resume.pdf": "/portfolio-app/static/media/Vicky Machado Resume.25c6e78fde99c7ee10a0.pdf",
     "static/media/banner-bg.png": "/portfolio-app/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/education.png": "/portfolio-app/static/media/education.64828649b63c19103527.png",
     "static/media/experience.png": "/portfolio-app/static/media/experience.b5fbe1f482e7bc9e79a9.png",
     "static/media/header-img.svg": "/portfolio-app/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/Machado_Vicky_Resume.pdf": "/portfolio-app/static/media/Machado_Vicky_Resume.0547de18cdc86eccb379.pdf",
     "static/media/vctai.png": "/portfolio-app/static/media/vctai.30b38a5ee6e8c0631c83.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio-app/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio-app/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -29,11 +29,11 @@
     "static/media/leetcode-img.svg": "/portfolio-app/static/media/leetcode-img.fad442f0900acda850038eab143381ef.svg",
     "index.html": "/portfolio-app/index.html",
     "main.5ca70935.css.map": "/portfolio-app/static/css/main.5ca70935.css.map",
-    "main.7a36112b.js.map": "/portfolio-app/static/js/main.7a36112b.js.map",
+    "main.cd556ec8.js.map": "/portfolio-app/static/js/main.cd556ec8.js.map",
     "453.4a91d8c7.chunk.js.map": "/portfolio-app/static/js/453.4a91d8c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ca70935.css",
-    "static/js/main.7a36112b.js"
+    "static/js/main.cd556ec8.js"
   ]
 }
